@@ -38,4 +38,15 @@ function saveData(){
 function showTask(){
     listContainer.innerHTML=localStorage.getItem("data");
 }
+
+//save when user hits enter
+inputBox.addEventListener("keypress",function(e){
+    
+    if(e.keyCode==13)
+    {
+        addTask();
+    }
+
+});
+
 showTask();
