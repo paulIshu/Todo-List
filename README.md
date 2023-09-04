@@ -60,7 +60,7 @@ To get a local copy of this project up and running, follow these steps:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/sagarroy/todo-list-project.git
+   git clone https://github.com/sagarroy707/todo-list-project.git
 
 
 ---
